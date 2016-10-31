@@ -15,6 +15,8 @@
 # specific language governing permissions and limitations
 # under the License.
 
+# ALERT: Edit these to match your installation.
+
 ARTEMIS_HOME='/opt/rh/A-MQ7-7.0.0.ER11-redhat-1'
 ARTEMIS_INSTANCE='/Users/dejanb/workspace/oss/amq-migration/security/basic/a-mq-7'
 

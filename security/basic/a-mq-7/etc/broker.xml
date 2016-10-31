@@ -92,15 +92,15 @@ under the License.
 
       <security-settings>
          <security-setting match="jms.queue.#">
-            <permission type="createNonDurableQueue" roles="admins"/>
-            <permission type="deleteNonDurableQueue" roles="admins"/>
-            <permission type="createDurableQueue" roles="admins"/>
-            <permission type="deleteDurableQueue" roles="admins"/>
-            <permission type="consume" roles="admins"/>
-            <permission type="browse" roles="admins"/>
-            <permission type="send" roles="admins"/>
+            <permission type="createNonDurableQueue" roles="admin"/>
+            <permission type="deleteNonDurableQueue" roles="admin"/>
+            <permission type="createDurableQueue" roles="admin"/>
+            <permission type="deleteDurableQueue" roles="admin"/>
+            <permission type="consume" roles="admin"/>
+            <permission type="browse" roles="admin"/>
+            <permission type="send" roles="admin"/>
             <!-- we need this otherwise ./artemis data imp wouldn't work -->
-            <permission type="manage" roles="admins"/>
+            <permission type="manage" roles="admin"/>
          </security-setting>
 
          <security-setting match="jms.queue.USERS.#">
